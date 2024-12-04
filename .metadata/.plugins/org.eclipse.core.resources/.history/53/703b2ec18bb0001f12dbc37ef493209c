@@ -1,0 +1,8 @@
+package rmi_serveur;
+
+import rmi_api.ServicePersonne;
+
+public class ServisePersonneImpl implements ServicePersonne {
+
+	
+}

@@ -1,0 +1,17 @@
+package rmi_api;
+
+public interface ServicePersonne {
+
+	int id= 0;
+	
+	String name="" ;
+	
+	int age=0;
+	
+	ResponseRMI getAllPersonne();
+	
+	ResponseRMI deletePersonneById(int id);
+	
+	ResponseRMI addPersonne();
+	
+}

@@ -1,0 +1,8 @@
+package rmi_api;
+
+public class ResponseRMI {
+
+	String statuscode;
+	
+	String body ;
+}

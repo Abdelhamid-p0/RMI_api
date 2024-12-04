@@ -1,0 +1,5 @@
+package rmi_api;
+
+public interface ServicePersonne {
+
+}

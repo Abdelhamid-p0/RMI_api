@@ -1,0 +1,8 @@
+package rmi_api;
+
+public class Response {
+
+	String statuscode;
+	
+	String body ;
+}

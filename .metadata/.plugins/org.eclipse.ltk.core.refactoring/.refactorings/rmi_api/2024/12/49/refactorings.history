@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;rmi_api.Response&apos; to &apos;ResponseRMI&apos;&#x0D;&#x0A;- Original project: &apos;rmi_api&apos;&#x0D;&#x0A;- Original element: &apos;rmi_api.Response&apos;&#x0D;&#x0A;- Renamed element: &apos;rmi_api.ResponseRMI&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Response&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;rmi_api{Response.java[Response" matchStrategy="1" name="ResponseRMI" qualified="false" references="true" similarDeclarations="false" stamp="1733129171934" textual="false" version="1.0"/>
+</session>

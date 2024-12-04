@@ -1,0 +1,15 @@
+package rmi_api;
+
+public class ResponseRMI {
+
+	public ResponseRMI() {};
+	
+	public ResponseRMI(String statuscode, String body) {
+		this.statuscode = statuscode;
+		this.body = body;
+	}
+
+	String statuscode;
+	
+	public String body ;
+}

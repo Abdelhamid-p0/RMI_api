@@ -1,0 +1,45 @@
+package rmi_serveur;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import rmi_api.EntityPersonne;
+import rmi_api.ResponseRMI;
+import rmi_api.ServicePersonne;
+
+public class ServisePersonneImpl implements ServicePersonne {
+	
+	List<EntityPersonne> listePersonnes = new ArrayList<EntityPersonne>();
+
+	@Override
+	public String toString() {
+		return "ServisePersonneImpl [listePersonnes=" + listePersonnes + "]";
+	}
+
+	@Override
+	public ResponseRMI getAllPersonne() {
+
+		ResponseRMI responseRMI= ResponseRMI("404" ,this.toString());
+		
+		return null;
+	}
+
+	@Override
+	public ResponseRMI deletePersonneById(int id) {
+
+
+		
+		return null;
+	}
+	
+
+	@Override
+	public ResponseRMI addPersonne() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+	
+}

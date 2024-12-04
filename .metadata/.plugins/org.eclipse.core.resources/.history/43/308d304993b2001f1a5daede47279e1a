@@ -1,0 +1,18 @@
+package rmi_api;
+
+public class EntityPersonne {
+
+	int id;
+	
+	public String name ;
+	
+	public EntityPersonne(int id, String name, int age) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.age = age;
+	}
+
+	int age ;
+	
+}

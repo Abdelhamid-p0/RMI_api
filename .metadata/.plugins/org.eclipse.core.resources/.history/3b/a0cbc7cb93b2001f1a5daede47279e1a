@@ -1,0 +1,16 @@
+package rmi_api;
+
+import java.rmi.Remote;
+
+public interface ServicePersonne extends Remote {
+	
+
+	ResponseRMI getAllPersonne();
+	
+	ResponseRMI deletePersonneById(int id);
+	
+	ResponseRMI addPersonne(EntityPersonne p);
+	
+	ResponseRMI updatePersonne(EntityPersonne p);
+	
+}
