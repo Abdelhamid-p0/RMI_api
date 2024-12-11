@@ -23,9 +23,9 @@ public class Main {
 		
 		ResponseRMI response = new ResponseRMI();
 		
-		Registry registry = LocateRegistry.getRegistry("localhost", 5002);
+        Registry registry = LocateRegistry.getRegistry("192.168.11.106", 5002);
         
-		System.out.print("Client Connected with back en 1099 \n");	
+		System.out.print("Client Connected with back en 5002 \n");	
 
         ServicePersonne service = (ServicePersonne) registry.lookup("ServicePersonne");
         
