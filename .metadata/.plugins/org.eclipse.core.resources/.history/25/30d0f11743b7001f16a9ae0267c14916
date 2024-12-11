@@ -23,7 +23,7 @@ public class Main {
 		
 		ResponseRMI response = new ResponseRMI();
 		
-		Registry registry = LocateRegistry.getRegistry("localhost", 5002);
+		Registry registry = LocateRegistry.getRegistry("100.89.23.42", 5002);
         
 		System.out.print("Client Connected with back en 1099 \n");	
 
